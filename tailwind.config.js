@@ -6,13 +6,14 @@ module.exports = {
       ...theme("colors"),
       primary: "#e8d7bd",
       secondary: "#f4ebde",
-      danger: "#e3342f",
+      green: "#607943",
     }),
-    textColor: {
-      'primary': '#222b18',
-      'secondary': '#607943',
-      'yellow': '#c69a5a',
-    },
+    textColor: (theme) => ({
+      ...theme("colors"),
+      primary: "#222b18",
+      secondary: "#607943",
+      yellow: "#c69a5a",
+    }),
     extend: {
       fontFamily: {
         body: ["Ubuntu"],

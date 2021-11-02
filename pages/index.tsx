@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import React, { useRef, useEffect } from "react";
-import { gsap } from "gsap/dist/gsap";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const Home: NextPage = () => {
@@ -22,11 +22,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
-        <h1 className="uppercase text-7xl font-black text-center mb-4">perfil</h1>
-        <h2 className="uppercase text-4xl font-black text-center text-yellow my-3">
+        <h1 className="uppercase text-7xl font-black text-center mb-4">
+          perfil
+        </h1>
+        <h2 className="uppercase text-4xl font-black text-center text-secondary my-3">
           ANNA GABRIELA RAMIREZ CUASTUZA
         </h2>
-        <div className="grid gap-4 md:grid-cols-2 items-center">
+        <div className="grid gap-4 md:grid-cols-2 items-center p-7">
           <div className=" relative">
             <Image
               src="/anna-ramirez.png"
@@ -46,8 +48,42 @@ const Home: NextPage = () => {
             entorno natural.
           </p>
         </div>
+        <div className="bg-secondary p-7">
+          <h2 className="uppercase text-4xl font-black text-center text-secondary my-3">
+            estudios
+          </h2>
+          2016 Magister en hábitad sustentable y eficiencia energética.
+          UNIVERSIDAD DEL BIO BIO Concapción, Chile. 2008 Pregardo de
+          Arquitectura. UNIVERSIDAD NACIONAL DE COLOMBIA Bogotá, Colombia.
+        </div>
+        <div className="bg-primary p-7">
+          <h2 className="uppercase text-4xl font-black text-center text-secondary my-3">
+            proyectos
+          </h2>
+          2016 Magister en hábitad sustentable y eficiencia energética.
+          UNIVERSIDAD DEL BIO BIO Concapción, Chile. 2008 Pregardo de
+          Arquitectura. UNIVERSIDAD NACIONAL DE COLOMBIA Bogotá, Colombia.
+        </div>
+        <div className="bg-secondary p-7">
+          <h2 className="uppercase text-4xl font-black text-center text-secondary my-3">
+            sustentabilidad
+          </h2>
+          2016 Magister en hábitad sustentable y eficiencia energética.
+          UNIVERSIDAD DEL BIO BIO Concapción, Chile. 2008 Pregardo de
+          Arquitectura. UNIVERSIDAD NACIONAL DE COLOMBIA Bogotá, Colombia.
+        </div>
+        <div className="bg-primary p-7">
+          <h2 className="uppercase text-4xl font-black text-center text-secondary my-3">
+            investigacion
+          </h2>
+          2016 Magister en hábitad sustentable y eficiencia energética.
+          UNIVERSIDAD DEL BIO BIO Concapción, Chile. 2008 Pregardo de
+          Arquitectura. UNIVERSIDAD NACIONAL DE COLOMBIA Bogotá, Colombia.
+        </div>
       </main>
-      <footer className={styles.footer}></footer>
+      <footer className="bg-green text-white p-7">Correo: agramirezc@unal.edu.co - annagramirez@hotmail.com
+Linkindin: https://www.linkedin.com/in/anna-gabriela-ramirez/
+Celular: +57 3187488798</footer>
     </div>
   );
 };
