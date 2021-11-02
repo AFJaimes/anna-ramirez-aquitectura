@@ -6,6 +6,7 @@ module.exports = {
       ...theme("colors"),
       primary: "#e8d7bd",
       secondary: "#f4ebde",
+      yellow: "#f6cc90",
       green: "#607943",
     }),
     textColor: (theme) => ({
