@@ -44,10 +44,17 @@ const Home: NextPage = () => {
             <h1 className="uppercase text-yellow font-bold text-center text-4xl text-center md:text-right pb-10">
               ANNA GABRIELA RAMIREZ CUASTUZA
             </h1>
-            <h2 className="uppercase text-3xl font-bold text-center mb-4 mt-10 text-center md:text-right">
+            <h2 className="uppercase text-3xl font-bold text-center mb-4 text-center md:text-right">
               estudios
             </h2>
             <div className="flex flex-col text-center md:text-right">
+              <p className="mb-4">
+                <span className="text-secondary font-black text-2xl">2018</span>
+                <br />
+                <b>Diplomado: Gestión del Cambio climático Territorial.</b>
+                <br />
+                Universidad Cooperativa de Colombia, Colombia.
+              </p>
               <p className="mb-4">
                 <span className="text-secondary font-black text-2xl">2016</span>
                 <br />
@@ -55,7 +62,28 @@ const Home: NextPage = () => {
                 <br />
                 UNIVERSIDAD DEL BIO BIO Concapción, Chile.
               </p>
-              <p>
+              <p className="mb-4">
+                <span className="text-secondary font-black text-2xl">2015</span>
+                <br />
+                <b>Diplomado: Edificios Sustentables.</b>
+                <br />
+                UNIVERSIDAD DEL BIO BIO Concapción, Chile.
+              </p>
+              <p className="mb-4">
+                <span className="text-secondary font-black text-2xl">2015</span>
+                <br />
+                <b>Diplomado: Diseño Urbano Sustentable.</b>
+                <br />
+                UNIVERSIDAD DEL BIO BIO Concapción, Chile.
+              </p>
+              <p className="mb-4">
+                <span className="text-secondary font-black text-2xl">2014</span>
+                <br />
+                <b>Diplomado: Viviendas Sustentables.</b>
+                <br />
+                UNIVERSIDAD DEL BIO BIO Concapción, Chile.
+              </p>
+              <p className="mb-4">
                 <span className="text-secondary font-black text-2xl">2008</span>
                 <br />
                 <b>Pregardo de Arquitectura.</b>
@@ -65,22 +93,13 @@ const Home: NextPage = () => {
             </div>
           </AnimatedContainer>
         </div>
-        <AnimatedContainer>
+        {/*
+           <AnimatedContainer>
           <h2 className="uppercase text-4xl font-black text-center text-secondary py-3 bg-yellow">
-            proyectos
+            experiencia
           </h2>
-          2016 Magister en hábitad sustentable y eficiencia energética.
-          UNIVERSIDAD DEL BIO BIO Concapción, Chile. 2008 Pregardo de
-          Arquitectura. UNIVERSIDAD NACIONAL DE COLOMBIA Bogotá, Colombia.
         </AnimatedContainer>
-        <AnimatedContainer className="bg-secondary">
-          <h2 className="uppercase text-4xl font-black text-center text-secondary bg-yellow">
-            sustentabilidad
-          </h2>
-          2016 Magister en hábitad sustentable y eficiencia energética.
-          UNIVERSIDAD DEL BIO BIO Concapción, Chile. 2008 Pregardo de
-          Arquitectura. UNIVERSIDAD NACIONAL DE COLOMBIA Bogotá, Colombia.
-        </AnimatedContainer>
+          */}
         <AnimatedContainer>
           <Investigacion />
         </AnimatedContainer>
