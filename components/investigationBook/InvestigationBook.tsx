@@ -24,9 +24,9 @@ const InvestigationBook: FunctionComponent<InvestigationBookProps> = ({
     gsap.registerPlugin(ScrollTrigger);
   }
 
-  const titleRef = useRef();
-  const subtitleRef = useRef();
-  const imageRef = useRef();
+  const titleRef = useRef() as React.MutableRefObject<HTMLInputElement>;
+  const subtitleRef = useRef() as React.MutableRefObject<HTMLInputElement>;
+  const imageRef = useRef() as React.MutableRefObject<HTMLInputElement>;
   useEffect(() => {
     gsap.from(titleRef.current, {
       scrollTrigger: {

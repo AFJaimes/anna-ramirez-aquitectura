@@ -1,8 +1,11 @@
 {
+  "homepage":"https://afjaimes.github.io/anna-ramirez-aquitectura",
   "name": "anna-ramirez-aquitectura",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -22,6 +25,7 @@
     "autoprefixer": "^10.4.0",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.1",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19",
     "typescript": "4.4.4"

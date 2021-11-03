@@ -14,7 +14,7 @@ const AnimatedContainer: FunctionComponent<AnimatedContainerProps> = ({
     gsap.registerPlugin(ScrollTrigger);
   }
 
-  const divRef = useRef();
+  const divRef = useRef() as React.MutableRefObject<HTMLInputElement>;
   useEffect(() => {
     gsap.from(divRef.current, {
       scrollTrigger: {
