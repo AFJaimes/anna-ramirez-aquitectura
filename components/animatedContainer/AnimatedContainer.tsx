@@ -22,9 +22,14 @@ const AnimatedContainer: FunctionComponent<AnimatedContainerProps> = ({
       },
       opacity: 0,
       paddingTop: 100,
+      ease: "power1",
     });
   }, []);
 
-  return <div ref={divRef} className={className}>{children}</div>;
+  return (
+    <div ref={divRef} className={className}>
+      {children}
+    </div>
+  );
 };
 export default AnimatedContainer;

@@ -9,12 +9,16 @@ const Footer: FunctionComponent = () => {
         <a
           href="mailto:agramirezc@unal.edu.co"
           title="enviar correo a agramirezc@unal.edu.co"
+          target="_blank"
+          rel="noopener noreferrer noindex nofollow"
         >
           agramirezc@unal.edu.co
         </a>
         <a
           href="mailto:annagramirez@hotmail.com"
           title="enviar correo a annagramirez@hotmail.com"
+          target="_blank"
+          rel="noopener noreferrer noindex nofollow"
         >
           annagramirez@hotmail.com
         </a>
@@ -27,6 +31,8 @@ const Footer: FunctionComponent = () => {
             title="visitar perfil de linkedin de anna ramirez"
             className="pt-1 relative"
             style={{ width: 20 }}
+            target="_blank"
+            rel="noopener noreferrer noindex nofollow"
           >
             <Image
               src="/linkedin.png"
@@ -41,6 +47,8 @@ const Footer: FunctionComponent = () => {
             title="enviar un mensaje al whatsapp de anna ramirez"
             className="pt-1 relative ml-2"
             style={{ width: 20 }}
+            target="_blank"
+            rel="noopener noreferrer noindex nofollow"
           >
             <Image
               src="/whatsapp.png"
@@ -54,7 +62,14 @@ const Footer: FunctionComponent = () => {
       </div>
       <div className="flex flex-col">
         <b className="mb-2">Celular:</b>
-        <a href="tel:+573187488798" title="click para llamar al numero de anna ramirez">+57 3187488798</a>
+        <a
+          href="tel:+573187488798"
+          target="_blank"
+          rel="noopener noreferrer noindex nofollow"
+          title="click para llamar al numero de anna ramirez"
+        >
+          +57 3187488798
+        </a>
       </div>
     </footer>
   );

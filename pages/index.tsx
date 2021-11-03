@@ -6,6 +6,7 @@ import React, { useRef, useEffect } from "react";
 import Navigation from "@anna/components/navigation/Navigation";
 import AnimatedContainer from "@anna/components/animatedContainer/AnimatedContainer";
 import Footer from "@anna/components/footer/Footer";
+import Investigacion from "@anna/components/investigacion/Investigacion";
 
 const Home: NextPage = () => {
   return (
@@ -40,12 +41,9 @@ const Home: NextPage = () => {
             </p>
           </AnimatedContainer>
           <AnimatedContainer className="bg-secondary h-full p-7 flex flex-col justify-center">
-            <h2 className="uppercase text-3xl font-bold text-center mb-4 text-center md:text-right">
-              perfil
-            </h2>
-            <p className="uppercase text-yellow font-bold text-center text-4xl text-center md:text-right pb-10">
+            <h1 className="uppercase text-yellow font-bold text-center text-4xl text-center md:text-right pb-10">
               ANNA GABRIELA RAMIREZ CUASTUZA
-            </p>
+            </h1>
             <h2 className="uppercase text-3xl font-bold text-center mb-4 mt-10 text-center md:text-right">
               estudios
             </h2>
@@ -84,12 +82,7 @@ const Home: NextPage = () => {
           Arquitectura. UNIVERSIDAD NACIONAL DE COLOMBIA Bogotá, Colombia.
         </AnimatedContainer>
         <AnimatedContainer>
-          <h2 className="uppercase text-4xl font-black text-center text-secondary bg-yellow">
-            investigacion
-          </h2>
-          Participación Ficha:Colegios Bajos en Carbono Constructores de paz.
-          PAG.37
-          http://www.2016-2019.narino.gov.co/inicio/files/SalaDePrensa/Ambiental/PORTAFOLIO_DE_PROYECTOS_EN_GESTIN_DEL_CAMBIO_CLIMTICO_TERRITORIAL_DE_NARIO_NARIO_ACTA_POR_EL_CLIMA-comprimido_reduce.pdf
+          <Investigacion />
         </AnimatedContainer>
       </main>
       <Footer />
