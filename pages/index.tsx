@@ -23,13 +23,12 @@ const Home: NextPage = () => {
       <main>
         <div className="grid md:grid-cols-2 items-center">
           <AnimatedContainer className="bg-primary relative p-7">
-            <Image
+            <img
               src="/anna-ramirez.png"
-              layout="responsive"
               alt="Arquitecta Anna Ramirez"
-              objectFit="contain"
-              width="100%"
-              height="100vw"
+              style={{
+                width: "100%",
+              }}
             />
             <p className="text-xl text-justify mt-6">
               Arquitecta con habilidades para el desarrollo de proyectos

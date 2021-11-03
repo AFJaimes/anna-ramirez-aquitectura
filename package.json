@@ -1,5 +1,4 @@
 {
-  "homepage": "https://afjaimes.github.io/anna-ramirez-aquitectura",
   "name": "anna-ramirez-aquitectura",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +8,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "gsap": "^3.8.0",

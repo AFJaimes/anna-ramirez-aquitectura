@@ -34,12 +34,10 @@ const Footer: FunctionComponent = () => {
             target="_blank"
             rel="noopener noreferrer noindex nofollow"
           >
-            <Image
+            <img
               src="/linkedin.png"
               alt="perfil de linkedin"
-              width={20}
-              height={20}
-              layout="fixed"
+              style={{ width: 20, height: 20 }}
             />
           </a>
           <a
@@ -50,12 +48,10 @@ const Footer: FunctionComponent = () => {
             target="_blank"
             rel="noopener noreferrer noindex nofollow"
           >
-            <Image
+            <img
               src="/whatsapp.png"
               alt="whatsapp de anna ramirez"
-              width={20}
-              height={20}
-              layout="fixed"
+              style={{ width: 20, height: 20 }}
             />
           </a>
         </div>

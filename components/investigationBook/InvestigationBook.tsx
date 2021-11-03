@@ -68,9 +68,9 @@ const InvestigationBook: FunctionComponent<InvestigationBookProps> = ({
       <div
         ref={imageRef}
         className={`${css.magazine} relative z-20 shadow-xl`}
-        style={{ width: "25vw", maxWidth: 500, height: "35vw" }}
+        style={{ width: "25vw", maxWidth: 500 }}
       >
-        <Image layout="fill" src={image} alt={alt} className="shadow" />
+        <img src={image} alt={alt} className="shadow" />
       </div>
       <div className="relative md:w-2/4 w-9/12 flex flex-col pt-3 md:pt-7">
         <div
