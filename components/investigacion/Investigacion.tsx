@@ -7,7 +7,7 @@ const Investigacion: FunctionComponent = () => {
       <h2 className="uppercase text-4xl font-black text-center text-secondary bg-yellow py-3">
         investigacion
       </h2>
-      <div className="grid md:grid-cols-2 justify-items-center">
+      <div className="grid md:grid-cols-2">
         <InvestigationBook
           title="Participación Ficha: Colegios Bajos en Carbono Constructores de paz."
           link="http://www.2016-2019.narino.gov.co/inicio/files/SalaDePrensa/Ambiental/PORTAFOLIO_DE_PROYECTOS_EN_GESTIN_DEL_CAMBIO_CLIMTICO_TERRITORIAL_DE_NARIO_NARIO_ACTA_POR_EL_CLIMA-comprimido_reduce.pdf"

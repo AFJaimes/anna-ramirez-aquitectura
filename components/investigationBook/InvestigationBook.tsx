@@ -67,21 +67,21 @@ const InvestigationBook: FunctionComponent<InvestigationBookProps> = ({
     >
       <div
         ref={imageRef}
-        className={`${css.magazine} relative z-20 shadow-xl`}
+        className={`${css.magazine} relative z-20`}
         style={{ width: "25vw", maxWidth: 500 }}
       >
-        <img src={image} alt={alt} className="shadow" />
+        <Image layout="responsive" width={"25vw"} height="35vw" src={image} alt={alt} />
       </div>
-      <div className="relative md:w-2/4 w-9/12 flex flex-col pt-3 md:pt-7">
+      <div className="relative md:w-2/4 w-9/12 flex flex-col pt-1 md:pt-3 lg:pt-7">
         <div
           ref={titleRef}
-          className={`${css.title} p-3 bg-white font-bold rounded-r-lg capitalize text-secondary z-10 shadow`}
+          className={`${css.title} p-3 bg-white font-bold rounded-r-lg capitalize text-secondary z-10 shadow text-sm lg:text-base text-right`}
         >
           {title}
         </div>
         <div
           ref={subtitleRef}
-          className="uppercase p-2 text-center text-secondary font-bold mx-1 bg-secondary rounded-b-lg shadow"
+          className="uppercase p-2 text-center text-secondary font-bold mx-1 bg-secondary rounded-b-lg shadow text-xs lg:text-base"
         >
           {subtitle || children}
         </div>
